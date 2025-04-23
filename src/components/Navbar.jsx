@@ -27,12 +27,14 @@ useEffect(()=>{
                 <a href="#About" className='cursor-pointer
                 hover:text-gray-400'>About</a>
                 <a href="#Projects" className='cursor-pointer
-                hover:text-gray-400'>Projects</a>
+                hover:text-gray-400'>Gallery</a>
                 <a href="#Testimonials" className='cursor-pointer
-                hover:text-gray-400'>Testimonials</a>
+                hover:text-gray-400'>Blog</a>
+                <a href="#Header" className='cursor-pointer
+                hover:text-gray-400'>Reviews</a>
             </ul>
-            <button className='hidden md:block bg-white px-8 py-2
-            rounded-full'>Sign up</button>
+            <button className='hidden md:block bg-assent px-8 py-2
+            rounded-full'>Contact Us</button>
             <img onClick={()=> setShowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
         </div>
         {/*---------mobile menu--------*/}
@@ -48,10 +50,12 @@ useEffect(()=>{
             inline-block'>Home</a>
              <a onClick={()=> setShowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full 
             inline-block'>About</a>
-             <a onClick={()=> setShowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full 
-            inline-block'>Projects</a>
-             <a onClick={()=> setShowMobileMenu(false)} href="#Testimonials" className='px-4 py-2 rounded-full 
-            inline-block'>Testimonials</a>
+             <a onClick={()=> setShowMobileMenu(false)} href="#Gallery" className='px-4 py-2 rounded-full 
+            inline-block'>Gallery</a>
+             <a onClick={()=> setShowMobileMenu(false)} href="#Blog" className='px-4 py-2 rounded-full 
+            inline-block'>Blog</a>
+            <a onClick={()=> setShowMobileMenu(false)} href="#Testimonials" className='px-4 py-2 rounded-full 
+            inline-block'>Reviews</a>
           </ul>
         </div>
     </div>

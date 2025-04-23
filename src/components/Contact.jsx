@@ -45,7 +45,20 @@ const Contact = () => {
         text-center'>Contact<span className='underline 
         underline-offset-4  decoration-1 under font-light'>Us</span></h1>
         <p className='text-center text-gray-500 mb-12 max-w-80
-        mx-auto'>Ready to make a move? Let's Build Your Future Together</p>
+        mx-auto'>Ready to make a move? Book your stay with us</p>
+
+<div className="flex flex-col md:flex-row max-w-4xl mx-auto pt-8 gap-6">
+  {/* Map on the left */}
+  <div className="w-full md:w-1/2">
+    <iframe
+      className="w-full h-64 md:h-full rounded"
+      src="https://www.google.com/maps/embed?pb=!1m18!..." // Replace with actual map embed link
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+
 
 <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
     <div className='flex flex-wrap'>
@@ -71,7 +84,7 @@ const Contact = () => {
     <button className='bg-assent text-white py-2 px-12 mb-10
     rounded'>{result ? result : "send Message"}</button>
 </form>
-
+</div>
     </motion.div>
   )
 }
