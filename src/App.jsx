@@ -7,6 +7,7 @@ import Contact from './components/contact'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer'
+import BookingForm from './components/BookingForm'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <About/>
       <Projects/>
       <Testimonials/>
+      <BookingForm/>
       <Contact/>
       <Footer/>
     </div>
