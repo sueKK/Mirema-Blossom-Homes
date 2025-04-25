@@ -8,6 +8,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer'
 import BookingForm from './components/BookingForm'
+import AdminBookings from './components/AdminBookings'
+import AdminPanel from './components/AdminPanel'
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <Projects/>
       <Testimonials/>
       <BookingForm/>
+      <AdminBookings/>
+      <AdminPanel/>
       <Contact/>
       <Footer/>
     </div>
