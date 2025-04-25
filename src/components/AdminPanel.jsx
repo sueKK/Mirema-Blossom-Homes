@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import Dashboard from "./Dashboard";
 import AdminBooking from "./AdminBookings";
+import { signOut } from "firebase/auth";
+import { auth } from "/firebase";
+
 
 const AdminPanel = () => {
   const [currentTab, setCurrentTab] = useState("Dashboard");
@@ -18,6 +21,15 @@ const AdminPanel = () => {
     }
   };
 
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.error("Error logging out:", error);
+    }
+  };
+  
+
   return (
     <div className="flex flex-col md:flex-row h-screen overflow-hidden">
       {/* Sidebar */}
@@ -30,6 +42,15 @@ const AdminPanel = () => {
           >
             {sidebarOpen ? "✖" : "☰"}
           </button>
+        </div>
+        <div>
+        <button
+  onClick={handleLogout}
+  className="mt-8 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded"
+>
+  Logout
+</button>
+
         </div>
 
         <nav className={`${sidebarOpen ? "block" : "hidden"} md:block mt-4`}>
