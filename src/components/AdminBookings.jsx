@@ -21,11 +21,11 @@ const Bookings = () => {
 
   return (
     <div>
-      <h2 className="text-2xl font-semibold mb-4">Bookings</h2>
+      <h2 className="text-2xl font-bold text-center mb-6">Bookings</h2>
       <div className="overflow-x-auto">
-        <table className="w-full table-auto text-left border">
+        <table className="min-w-full bg-white rounded shadow">
           <thead>
-            <tr className="bg-gray-100">
+            <tr className="bg-gray-200 text-left">
               <th className="p-3">Name</th>
               <th className="p-3">Email</th>
               <th className="p-3">Check-In</th>
