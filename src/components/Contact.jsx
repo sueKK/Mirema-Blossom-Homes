@@ -45,7 +45,7 @@ const Contact = () => {
         text-center'>Contact<span className='underline 
         underline-offset-4  decoration-1 under font-light'>Us</span></h1>
         <p className='text-center text-gray-500 mb-12 max-w-80
-        mx-auto'>Ready to make a move? Book your stay with us</p>
+        mx-auto'>Do you have Inquiries ? Contact us</p>
 
 <div className="flex flex-col md:flex-row max-w-4xl mx-auto pt-8 gap-6">
   {/* Map on the left */}

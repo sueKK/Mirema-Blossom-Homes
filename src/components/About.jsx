@@ -13,36 +13,28 @@ const About = () => {
     className='flex flex-col items-center justify-center
     container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden'
     id='About'>
-      <h1 className='text-2xl sm:text-4xl font-bold mb-2'>About<span className=' underline underline-offset-4 decoration-1 under font-light'>Mirema
+      <h1 className='text-2xl sm:text-4xl font-bold mb-2'><span>About</span>
+        <span className='ml-2 underline underline-offset-4 decoration-1 under font-light'>Mirema
          Blossom Homes</span></h1>
-      <p className='text-gray-500 max-w-80 text-center mb-8'>Passionate About
-         Properties, Dedicated to Your Vision</p>
+      <p className='text-gray-500 max-w-80 text-center mb-8'>A Peaceful Escape in Full Bloom</p>
          <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20'>
-            <img src={assets.brand_img} alt="" className='w-full sm:w-1/2 max-w-lg'/>
+            <img src={assets.brand_img} alt="" className='w-full sm:w-1/2 max-w-lg rounded-t-full'/>
             <div className='flex flex-col items-center md:items-start mt-10 text-gray-600'>
-              <div className='grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28'>
-                <div>
-                  <p className='text-4xl font-medium text-gray-800'>10+</p>
-                  <p> Years of Excellence</p>
-                </div>
-                <div>
-                  <p className='text-4xl font-medium text-gray-800'>12+</p>
-                  <p> Projects Completed</p>
-                </div>
-                <div>
-                  <p className='text-4xl font-medium text-gray-800'>20+</p>
-                  <p> Mn. Sq. Ft. Delivered</p>
-                </div>
-                <div>
-                  <p className='text-4xl font-medium text-gray-800'>25+</p>
-                  <p> Ongoing Projects</p>
-                </div>
-              </div>
-              <p className='my-10 max-w-lg'>Real estate refers to land, buildings, and any natural or man-made structures
-                 attached to it. It includes residential, commercial, industrial, and 
-                 agricultural properties. The real estate industry involves buying, selling, renting,
-                  and developing properties for investment or personal use.</p>
-                  <button className='bg-assent text-white px-8 py-2 rounded'>Learn More</button>
+              <p className='my-10 max-w-lg mt-10'>Nestled in the peaceful and well-connected neighborhood of Mirema,
+                 Nairobi, Mirema Blossom Homes offers a premium Airbnb experience designed for travelers seeking
+                  both comfort and convenience. Our beautifully furnished apartments blend stylish modern interiors
+                   with the warmth of home, making them ideal for solo travelers, couples, families, or even business
+                    guests.
+
+                  Each unit is thoughtfully equipped with essential amenities including high-speed Wi-Fi, fully stocked
+                    kitchens, spacious living areas, smart TVs, and cozy bedding to ensure a restful stay. Guests enjoy
+                      24/7 security, ample parking, and proximity to major roads, shopping malls, schools, and healthcare 
+                        facilities.
+
+                Whether you're staying for a night or a few weeks, Mirema Blossom Homes offers a tranquil escape 
+                  within the city — a perfect base to explore Nairobi while enjoying the privacy and calm of a residential 
+                    setting.</p>
+                  <button className='bg-assent text-white px-8 py-2 rounded'>Check our pricing</button>
             </div>
          </div>
     </motion.div>

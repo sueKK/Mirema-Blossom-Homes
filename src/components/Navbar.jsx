@@ -16,11 +16,15 @@ useEffect(()=>{
 },[showMobileMenu])
   
   return (
-    <div className='absolute top-0 left-0 w-full z-10'>
+    <div className='absolute top-0 left-0 w-full z-10 justify-center flex items-center px-6 py-4'>
         <div className='container mx-auto flex justify-between
         items-center py-4 px-6 md:px-20 lg:px-32 
         bg-transparent'>
-            <img src={assets.logo} alt="" />
+           <div className="flex items-center">
+              <span className="text-white font-semibold text-2xl tracking-wide">
+              Mirema Blossom Homes
+              </span>
+            </div>
             <ul className='hidden md:flex gap-7 text-white '>
                 <a href="#Header" className='cursor-pointer
                 hover:text-gray-400'>Home</a>
@@ -28,8 +32,6 @@ useEffect(()=>{
                 hover:text-gray-400'>About</a>
                 <a href="#Projects" className='cursor-pointer
                 hover:text-gray-400'>Gallery</a>
-                <a href="#Testimonials" className='cursor-pointer
-                hover:text-gray-400'>Blog</a>
                 <a href="#Header" className='cursor-pointer
                 hover:text-gray-400'>Reviews</a>
             </ul>
@@ -52,8 +54,6 @@ useEffect(()=>{
             inline-block'>About</a>
              <a onClick={()=> setShowMobileMenu(false)} href="#Gallery" className='px-4 py-2 rounded-full 
             inline-block'>Gallery</a>
-             <a onClick={()=> setShowMobileMenu(false)} href="#Blog" className='px-4 py-2 rounded-full 
-            inline-block'>Blog</a>
             <a onClick={()=> setShowMobileMenu(false)} href="#Testimonials" className='px-4 py-2 rounded-full 
             inline-block'>Reviews</a>
           </ul>
