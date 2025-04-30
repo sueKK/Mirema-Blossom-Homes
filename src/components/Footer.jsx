@@ -7,13 +7,15 @@ const Footer = () => {
     w-full overflow-hidden' id='Footer'>
         <div className='container mx-auto flex flex-col md:flex-row
         justify-between items-start '>
-            <div className='w-full md:w-1/3 mb-8 md:mb-0'>
-                <img src={assets.logo_dark} alt="" />
-                <p className='text-gray-200 mt-4'>The sky turned a soft orange as the sun dipped below
-                    the horizon, casting long shadows across the quiet street.
-                    A gentle breeze rustled the leaves, carrying with it the
-                    scent of blooming jasmine.</p>
-            </div>
+        <div className="w-full md:w-1/2 px-4 py-2">
+            <iframe
+              className="w-full h-64 md:h-full rounded"
+              src="https://www.google.com/maps/embed?pb=!1m18!..." // Replace with actual map embed link
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
             <div className='w-full md:w-1/5 mb-8 md:mb-0'>
                 <h3 className='text-white text-lg font-bold
                 mb-4'>Company</h3>
@@ -25,7 +27,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='w-full md:w-1/3'>
-              <h3 className='text-white text-lg font-bold mb-4'>Subscribe to our newsletter</h3>
+              <h3 className='text-white text-lg font-bold mb-4'>Contact us</h3>
               <p className='text-gray-200 mb-4 max-w-80'>The latest news, articles, and resources, sent
                 to your inbox weekly.</p>
                 <div className='flex gap-2'>
