@@ -13,6 +13,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "/firebase";
 import Login from "./components/Login";
 import Gallery from './components/Gallery'
+import Activities from './components/Activities'
 
 const App = () => {
   const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
@@ -33,6 +34,7 @@ const App = () => {
       <Projects/>
       <Testimonials/>
       <Gallery/>
+      <Activities/>
       <BookingForm/>
 
        {/* 🔐 Only show AdminPanel when logged in */}

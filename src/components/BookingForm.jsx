@@ -1,6 +1,5 @@
 import { db } from "/firebase"; // adjust path if needed
 import { collection, addDoc, getDocs } from "firebase/firestore";
-import { div } from "framer-motion/client";
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import DatePicker from "react-datepicker";
@@ -77,7 +76,7 @@ export default function BookingSection() {
     whileInView={{opacity:1, x:0}}
     viewport={{once: true}}
 
-         className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='booking'>
+         className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden bg-yellow-50' id='booking'>
          <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Book your stay<span className='underline 
         underline-offset-4  decoration-1 under font-light'> with Us</span></h1>
         <p className='text-center text-gray-500 mb-12 max-w-80

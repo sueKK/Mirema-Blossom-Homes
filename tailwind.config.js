@@ -9,8 +9,8 @@ export default {
      colors: {
       muted: '#6F7477',
       sand: '#756350',
-      coffee: '#4E4235',
-      ash: '#615B53',
+      coffee: '#dbbb98',
+      ash: '#ada599',
       walnut: '#403320',
       assent:'#f3be4c',
     },

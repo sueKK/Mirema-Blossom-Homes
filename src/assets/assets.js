@@ -23,6 +23,10 @@ import gallery_img_7 from './gallery_img_7.jpg'
 import gallery_img_8 from './gallery_img_8.jpg'
 import gallery_img_9 from './gallery_img_9.jpg'
 import gallery_img_10 from './gallery_img_10.jpg'
+import activities_img_1 from './activities_img_1.jpeg'
+import activities_img_2 from './activities_img_2.jpeg'
+import activities_img_3 from './activities_img_3.jpeg'
+import activities_img_4 from './activities_img_4.jpeg'
 export const assets = {
     logo,
     logo_dark,
@@ -49,6 +53,10 @@ export const assets = {
     gallery_img_8,
     gallery_img_9,
     gallery_img_10,
+    activities_img_1,
+    activities_img_2,
+    activities_img_3,
+    activities_img_4,
 }
 
 export const projectsData = [
@@ -127,4 +135,11 @@ export const projectsData = [
   gallery_img_8,
   gallery_img_9,
   gallery_img_10,
+ ];
+
+ export const activityImages = [
+  activities_img_1,
+  activities_img_2,
+  activities_img_3,
+  activities_img_4,
  ];
