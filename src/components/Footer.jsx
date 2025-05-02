@@ -5,40 +5,24 @@ const Footer = () => {
   return (
     <div className='pt-10 px-4 md:px-20 lg:px-32 bg-ash
     w-full overflow-hidden' id='Footer'>
+      <h2 className="text-3xl sm:text-4xl font-handwriting text-center mb-10">Where to Find us?</h2>
         <div className='container mx-auto flex flex-col md:flex-row
         justify-between items-start '>
         <div className="w-full md:w-1/2 px-4 py-2">
             <iframe
-              className="w-full h-64 md:h-full rounded"
-              src="https://www.google.com/maps/embed?pb=!1m18!..." // Replace with actual map embed link
+              className="basis-full md:basis-1/2 aspect-square rounded-xl overflow-hidden"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.920832505498!2d36.88052507496566!3d-1.2152999987731046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMTInNTUuMSJTIDM2wrA1Mic1OS4yIkU!5e0!3m2!1sen!2ske!4v1746093444928!5m2!1sen!2ske"> // Replace with actual map embed link
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            </iframe>
           </div>
-            <div className='w-full md:w-1/5 mb-8 md:mb-0'>
-                <h3 className='text-white text-lg font-bold
-                mb-4'>Company</h3>
-                <ul className='flex flex-col gap-2 text-gray-200'>
-                    <a href="#Header" className='hover:text-white'>Home</a>
-                    <a href="#About" className='hover:text-white'>About Us</a>
-                    <a href="#Contact" className='hover:text-white'>Contact Us</a>
-                    <a href="#" className='hover:text-white'>Privacy policy</a>
-                </ul>
-            </div>
-            <div className='w-full md:w-1/3'>
-              <h3 className='text-white text-lg font-bold mb-4'>Contact us</h3>
-              <p className='text-gray-200 mb-4 max-w-80'>The latest news, articles, and resources, sent
-                to your inbox weekly.</p>
-                <div className='flex gap-2'>
-                    <input type="email" placeholder="Enter your email"
-                    className='p-2 rounded bg-gray-800 text-gray-200 border
-                    border-gray-700 focus:outline-none w-full md:w-auto'/>
-                    <button className='py-2 px-4 rounded bg-assent
-                    text-white'>Subscribe</button>
-                </div>
-
-            </div>
+          <div className="basis-full md:basis-1/2 bg-[#a4773d] text-black p-6 rounded-xl flex flex-col justify-center min-h-[300px] text-center">
+              <p className="text-xl font-semibold mb-4">Phone/Whatsapp:</p>
+             <p className=" text-lg mb-6">+254 725 883 954</p>
+             <p className="text-xl font-semibold mb-4">Email:</p>
+              <p className="text-lg mb-6">info@miremablossomhomes.co.ke</p>
+          </div>
         </div>
         <div className='border-t border-gray-700 py-4 mt-10 text-center
         text-gray-100'>

@@ -143,7 +143,7 @@ export default function BookingSection() {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded font-semibold"
+          className="w-full bg-assent hover:bg-assent text-white py-3 rounded font-semibold"
         >
           Book Now
         </button>

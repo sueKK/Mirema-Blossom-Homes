@@ -45,7 +45,7 @@ export default function Login({ onLogin }) {
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded"
+            className="w-full bg-blue-400 hover:bg-blue-700 text-white py-2 rounded"
           >
             Login
           </button>

@@ -63,16 +63,14 @@ const prevProject = ()=>{
             style={{transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)` }}
             >
                 {projectsData.map((project, index)=>(
-                    <div key={index} className='relative flex-shrink-0 
-                    w-full sm:w-1/4'>
-                        <img src={project.image} alt={project.title} className='w-full h-auto
-                        mb-14'/>
-                        <div className='absolute left-0 right-0 bottom-5 flex justify-center'>
-                            <div className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'> 
+                    <div key={index} className='relative flex-shrink-0 w-full sm:w-1/4 h-[320px] overflow-hidden rounded-lg shadow-md'>
+                        <img src={project.image} alt={project.title} className='w-full h-full object-cover mb-10'/>
+                        <div className='absolute bottom-0 left-0 right-0'>
+                            <div className='bg-white bg-opacity-70 w-11/12 mx-auto px-4 py-2 mb-4 rounded-md shadow'> 
                                 <h2 className='text-xl font-semibold text-gray-800'>
                                     {project.title}
                                 </h2>
-                                <p className='text-gray-500 text-sm'>
+                                <p className='text-gray-950 text-sm'>
                                     {project.price} <span className='px-1'>|</span> {project.location}
                                 </p>
                             </div>

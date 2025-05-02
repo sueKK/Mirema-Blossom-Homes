@@ -11,7 +11,7 @@ const About = () => {
     viewport={{once: true}}
     
     className='flex flex-col items-center justify-center
-    container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden bg-yellow-50 w-full'
+    container mx-auto p-14 md:px-20 lg:px-32 overflow-hidden bg-yellow-50 w-full'
     id='About'>
       <h1 className='text-2xl sm:text-4xl font-bold mb-2'><span>About</span>
         <span className='ml-2 underline underline-offset-4 decoration-1 under font-light'>Mirema
