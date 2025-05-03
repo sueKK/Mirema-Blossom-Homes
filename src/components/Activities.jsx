@@ -3,7 +3,7 @@ import { activityImages } from '../assets/assets';
 
 const Activities = () => {
   return (
-    <div className="bg-white py-12 px-4 md:px-20 lg:px-32" id="activities">
+    <div className="bg-yellow-50 py-12 px-4 md:px-20 lg:px-32" id="activities">
   <h2 className="text-4xl font-handwriting text-center mb-10">
     Activities Near Mirema Blossom Homes
   </h2>

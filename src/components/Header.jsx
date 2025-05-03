@@ -18,7 +18,7 @@ function Header() {
             <h2 className='text-5xl sm:text-6xl md:text-[82px] inline-block
             max-w-3xl font-semibold pt-20'>A Peaceful Escape in Full Bloom</h2>
             <div className='space-x-6 mt-16'>
-                <a href="#Projects" className=' hover:bg-assent border border-white px-8 py-3 rounded'>Our Gallery</a>
+                <a href="#Gallery" className=' hover:bg-assent border border-white px-8 py-3 rounded'>Our Gallery</a>
                 <a href="#booking" className='bg-assent px-8 py-3 rounded'>Book Your Stay</a>
             </div>
         </motion.div>

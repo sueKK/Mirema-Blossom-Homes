@@ -10,7 +10,7 @@ const Gallery = () => {
     whileInView={{opacity:1, x:0}}
     viewport={{once: true}}
        
-    className="px-4 py-10 bg-white">
+    className="px-4 py-10 bg-white" id="Gallery">
   <h2 className="text-2xl font-bold mb-6 text-center">Gallery</h2>
   
   <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">

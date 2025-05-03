@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Footer = () => {
   return (
-    <div className='pt-10 px-4 md:px-20 lg:px-32 bg-ash w-full overflow-hidden' id='Footer'>
+    <div className='pt-10 px-4 md:px-20 lg:px-32 bg-ash w-full overflow-hidden' id="Contact">
   <h2 className="text-3xl sm:text-4xl font-handwriting text-center mb-10">Where to Find us?</h2>
 
   <div className='container mx-auto flex flex-col md:flex-row justify-between items-stretch gap-10'>

@@ -39,10 +39,12 @@ const prevProject = ()=>{
     viewport={{once: true}}
 
      className='container mx-auto py-4 pt-20 px-6 md:px-20
-    lg:px-32 my-20 w-full overflow-hidden' id='Projects'>
+    lg:px-32 my-20 w-full overflow-hidden'>
         <h1 className='text-2xl sm:text4xl font-bold mb-2 text-center'>Our <span
         className='underline underline-offset-4 decoration-1 under font-light'> Catalog</span></h1>
-        <p className='text-center text-gray-500 mb-8 max-w-80 mx-auto'>Bed and Breakfast, vacation Home Rental,Real Estate</p>
+        <p className='text-center text-lg space-y-6 text-gray-700 max-w-4xl mx-auto'>Experience comfort and convenience at Mirema Blossom Airbnb with our thoughtfully designed accommodations. Choose from our 1 Bedroom BnB at KSH 3,000, featuring a cozy queen-size bed with a high-density fiber mattress, plush pillows, and soft, clean bedding — perfect for a restful night. The unit includes access to a private kitchen and balcony. For more space, our 2 Bedroom BnB at KSH 5,000 offers a queen-size bed and a double bed, along with access to two balconies offering spectacular views.
+
+Enjoy the privacy of a separate bathroom and toilet, including a hand wash sink for added convenience. Prepare your meals in a fully equipped kitchen stocked with a cooker, oven, refrigerator, microwave, kettle, cookery, and cutlery. Unwind in the living room, where you’ll find a cozy sofa, smart TV, sound system, and fast-speed internet to keep you entertained or connected. Step out onto the balcony and take in the relaxing views — the perfect way to start or end your day.</p>
 
         {/*slider buttons*/}
 
