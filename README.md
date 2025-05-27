@@ -2,5 +2,5 @@
 
 check it out
 
-Link will update soon :)
+https://suekk.github.io/Mirema-Blossom-Homes/
 
